@@ -1,0 +1,29 @@
+/* Estilo común mínimo para todas las páginas */
+body {
+    font-family: system-ui, sans-serif;
+    max-width: 50rem;
+    margin: 0 auto;
+    padding: 1.5rem;
+    line-height: 1.6;
+    color: #222;
+}
+
+a {
+    color: #0b5cad;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible {
+    outline: 3px solid #0b5cad;
+    outline-offset: 2px;
+}
+
+/* Lista de resultados de los ejercicios 1-8 */
+.salida {
+    font-family: ui-monospace, Consolas, monospace;
+    background: #f4f6f8;
+    border-left: 4px solid #0b5cad;
+    padding: 1rem 1rem 1rem 2rem;
+    overflow-wrap: anywhere;
+}
