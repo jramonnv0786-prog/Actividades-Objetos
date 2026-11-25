@@ -1,5 +1,5 @@
 /**
- * @file Ejercicio 1: Creación y acceso a objetos.
+ * @file Ejercicios 1 y 2: Creación y acceso a objetos y recorrido con forEach.
  * @author Jose Ramón Neira Vega
  */
 
@@ -26,3 +26,25 @@ mostrar("Objeto modificado:", persona);
 
 // Muestra la edad accediendo a la propiedad.
 mostrar("Edad", persona["edad"]);
+
+
+// ----------------------------------------------------------------------------------------------------------------
+
+
+//2º.PUNTO Foreach.
+
+//Variables inicializadas en false.
+let nombre = false;
+let apellido = false;
+
+//Recorre el objeto persona.
+ Object.keys(persona).forEach(function (clave) {    
+    //Recorre cada propiedad primero nombre
+    if (clave === "nombre" ) {
+        nombre = true;
+    }
+});
+
+//Muestra SI existe la propiedad nombre.
+mostrar("Existe la propiedad nombre:", nombre);
+    
