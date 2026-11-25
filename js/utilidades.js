@@ -1,5 +1,5 @@
 /**
- * @file Utilidades comunes a los ejercicios 1-8.
+ * @file Utilidades comunes a todos los ejercicios.
  * Muestra cada resultado en la consola y también en la propia página,
  * para que se pueda comprobar el ejercicio sin abrir las herramientas
  * de desarrollo.
