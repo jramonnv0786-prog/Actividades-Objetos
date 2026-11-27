@@ -23,8 +23,8 @@ const myCar = new Car("KIA", "Sportage", 2024);
 const myCar2 = new Car("KIA", "Ceed", 2020);
 
 // Muestra los coches y comprueba que son instancias de Car.
-mostrar("Coche 1:", myCar);
-mostrar("Coche 2:", myCar2);
-mostrar("Modelo de coche 1:", myCar.model);
+console.log("Coche 1:", myCar);
+console.log("Coche 2:", myCar2);
+console.log("Modelo de coche 1:", myCar.model);
 // instanceof pregunta: ¿este objeto se ha construido con el molde Car?
-mostrar("¿myCar es un Car?:", myCar instanceof Car);
+console.log("¿myCar es un Car?:", myCar instanceof Car);

@@ -8,24 +8,23 @@ Desarrollo Web en Entorno Cliente · 2.º DAW · Jose Ramón Neira Vega
 
 - **Online:** abre el enlace de arriba y entra en cada ejercicio desde el índice.
 - **En local:** abre la carpeta con Visual Studio Code y lanza `index.html` con la extensión Live Server.
-- Todos los ejercicios muestran su resultado **en la propia página** y en la **consola** del navegador (F12 → Consola).
+- Cada ejercicio muestra su resultado en la **consola** del navegador (F12 → Consola).
 
 | Ej. | Tema | Qué hacer | Resultado esperado |
 |---|---|---|---|
-| 1 y 2 | Creación, acceso y forEach | Abrir la página | Nombre y edad (punto), objeto con `pais` y sin `trabajo`, edad (corchetes); existe `nombre`, no existe `apellido`; listado de claves y valores |
-| 3 | Referencias y clonación | Abrir la página | El cambio en `usuario2` afecta a `usuario1`; el cambio en el clon no afecta al original |
-| 4 | Constructor y `this` | Abrir la página | Objetos `Car` creados con `new` y sus propiedades |
-| 5 | Symbol y claves ocultas | Abrir la página | `for...in` no muestra la clave `id`; sí se accede con `empleado[id]` |
-| 6 | Conversión a primitivo | Abrir la página | `Saldo: 1000 EUR` |
-| 7 | Herencia de clases | Abrir la página | `Toyota is Rolling out!` e información de nombre y modelo |
-| 8 | Propiedades privadas | Abrir la página | Código 1234 → 5678; el acceso directo a `#codigo` no es posible |
+| 1 y 2 | Creación, acceso y forEach | Abrir la página y la consola | Nombre y edad (punto), objeto con `pais` y sin `trabajo`, edad (corchetes); existe `nombre`, no existe `apellido`; listado de claves y valores |
+| 3 | Referencias y clonación | Abrir la página y la consola | El cambio en `usuario2` afecta a `usuario1`; el cambio en el clon no afecta al original |
+| 4 | Constructor y `this` | Abrir la página y la consola | Objetos `Car` creados con `new` y sus propiedades |
+| 5 | Symbol y claves ocultas | Abrir la página y la consola | `for...in` no muestra la clave `id`; sí se accede con `empleado[id]` |
+| 6 | Conversión a primitivo | Abrir la página y la consola | `Saldo: 1000 EUR` |
+| 7 | Herencia de clases | Abrir la página y la consola | `Toyota is Rolling out!` e información de nombre y modelo |
+| 8 | Propiedades privadas | Abrir la página y la consola | Código 1234 → 5678; el acceso directo a `#codigo` no es posible |
 
 ## Estructura
 
 ```
 ├── index.html          → índice de ejercicios
 ├── css/styles.css      → estilos comunes
-├── js/utilidades.js    → función mostrar(): resultado en consola y en la página
 ├── ejercicio-01/       → ejercicios 1 y 2 (comparten el objeto persona)
 └── ejercicio-03/ … ejercicio-08/
     ├── index.html
@@ -34,6 +33,7 @@ Desarrollo Web en Entorno Cliente · 2.º DAW · Jose Ramón Neira Vega
 
 ## Bibliografía
 
+- ILERNA. *4.1. JS: Colecciones, funciones y objetos (parte I)* (S. Montes Repiso).
 - ILERNA. *4.4. JS: Objetos definidos por el usuario* (S. Montes Repiso).
 - ILERNA. *3.5. Patrones de diseño en JS* (S. Montes Repiso).
 - MDN Web Docs. [Trabajando con objetos](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Working_with_objects)
@@ -42,4 +42,3 @@ Desarrollo Web en Entorno Cliente · 2.º DAW · Jose Ramón Neira Vega
 - MDN Web Docs. [`Object.prototype.toString()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Object/toString)
 - MDN Web Docs. [`extends`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Classes/extends) y [`super`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/super)
 - MDN Web Docs. [Propiedades privadas de clase](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Classes/Private_properties)
-- MDN Web Docs. [`JSON.stringify()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify) (usado en `js/utilidades.js`)

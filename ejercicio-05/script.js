@@ -17,8 +17,8 @@ empleado[id] = 1234;
 
 // Recorre las propiedades con for...in: la clave Symbol no aparece.
 for (const clave in empleado) {
-    mostrar(clave + ":", empleado[clave]);
+    console.log(clave + ":", empleado[clave]);
 }
 
 // La propiedad existe: se accede a ella directamente con el símbolo.
-mostrar("id (clave Symbol, oculta en el bucle):", empleado[id]);
+console.log("id (clave Symbol, oculta en el bucle):", empleado[id]);

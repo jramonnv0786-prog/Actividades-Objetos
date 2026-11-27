@@ -11,21 +11,21 @@ const persona = {
 };
 
 // Muestra el nombre y la edad de la persona.
-mostrar("Nombre:", persona.nombre);
-mostrar("Edad:", persona.edad + " años.");
+console.log("Nombre:", persona.nombre);
+console.log("Edad:", persona.edad + " años.");
 
 // Muestra el objeto completo antes de modificarlo.
-mostrar("Objeto inicial:", persona);
+console.log("Objeto inicial:", persona);
 
 // Añade la propiedad pais y elimina la propiedad trabajo.
 persona.pais = "España";
 delete persona.trabajo;
 
 // Muestra el objeto completo después de los cambios.
-mostrar("Objeto modificado:", persona);
+console.log("Objeto modificado:", persona);
 
 // Muestra la edad accediendo a la propiedad.
-mostrar("Edad", persona["edad"]);
+console.log("Edad", persona["edad"]);
 
 
 // ----------------------------------------------------------------------------------------------------------------
@@ -49,12 +49,12 @@ Object.keys(persona).forEach(function (clave) {
 });
 
 // Muestra si existe la propiedad nombre.
-mostrar("Existe la propiedad nombre:", nombre);
+console.log("Existe la propiedad nombre:", nombre);
 
 // Recorre todas las propiedades de persona y muestra su clave y su valor.
 Object.entries(persona).forEach(function (par) {
-    mostrar(par[0] + ":", par[1]);
+    console.log(par[0] + ":", par[1]);
 });
 
 // TRUE Si existe la propiedad apellido si no FALSE.
-mostrar("Existe la propiedad apellido: ", apellido);
+console.log("Existe la propiedad apellido: ", apellido);

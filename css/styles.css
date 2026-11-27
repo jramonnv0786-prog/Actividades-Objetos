@@ -19,11 +19,3 @@ input:focus-visible {
     outline-offset: 2px;
 }
 
-/* Lista de resultados de los ejercicios 1-8 */
-.salida {
-    font-family: ui-monospace, Consolas, monospace;
-    background: #f4f6f8;
-    border-left: 4px solid #0b5cad;
-    padding: 1rem 1rem 1rem 2rem;
-    overflow-wrap: anywhere;
-}

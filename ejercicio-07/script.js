@@ -23,7 +23,7 @@ class Vehicle {
      * @returns {void}
      */
     move() {
-        mostrar(this.name + " se está moviendo");
+        console.log(this.name + " se está moviendo");
     }
 }
 
@@ -49,7 +49,7 @@ class Car extends Vehicle {
      * @returns {void}
      */
     move() {
-        mostrar(this.name + " is Rolling out!");
+        console.log(this.name + " is Rolling out!");
     }
 
     /**
@@ -57,7 +57,7 @@ class Car extends Vehicle {
      * @returns {void}
      */
     info() {
-        mostrar("Nombre: " + this.name + ", modelo: " + this.model);
+        console.log("Nombre: " + this.name + ", modelo: " + this.model);
     }
 }
 

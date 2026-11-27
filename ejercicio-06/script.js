@@ -13,4 +13,4 @@ const cuentaBancaria = {
 };
 
 // Convierte el objeto en texto: String() llama a toString().
-mostrar("Cuenta bancaria ->", String(cuentaBancaria));
+console.log("Cuenta bancaria ->", String(cuentaBancaria));
